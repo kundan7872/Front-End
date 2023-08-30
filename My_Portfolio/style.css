@@ -1,0 +1,106 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: black;
+}
+
+.nav {
+  background-color: rgb(236, 117, 74);
+}
+.nav ul {
+  margin-right: 150px;
+  display: flex;
+
+  padding: 20px;
+  justify-content: right;
+  list-style-type: none;
+}
+
+li a {
+  justify-content: right;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: azure;
+  padding-right: 60px;
+}
+.nav ul b {
+  margin-right: 350px;
+  font-size: 20px;
+  color: white;
+}
+li a:hover {
+  color: black;
+}
+.container {
+  display: flex;
+}
+.box {
+  color: azure;
+  margin-left: 100px;
+  margin-top: 80px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.box1 {
+  justify-content: right;
+  margin-left: 350px;
+  margin-top: 80px;
+}
+.box2 img {
+  margin-top: 100px;
+}
+.btn {
+  margin-left: 150px;
+}
+.btn button {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: solid 3px white;
+  background-color: orangered;
+  font-weight: bold;
+}
+.btn button:hover {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  color: black;
+  border: solid 3px orangered;
+  background-color: white;
+  font-weight: bold;
+}
+.h {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+.soaialm {
+  margin-left: 150px;
+  padding: 20px;
+}
+.soaialm img {
+  width: 40px;
+  border-radius: 20px;
+  padding: 2px;
+}
+.soaialm img:hover {
+  border-radius: 20px;
+  background-color: aqua;
+}
+.about {
+  color: azure;
+  text-align: center;
+}
+.about p {
+  font-size: 15px;
+}
+.foter {
+  color: azure;
+  text-align: center;
+}
+.box span{
+  color: orangered;
+}
