@@ -1,0 +1,132 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.heder {
+ background-color: white;
+  cursor: pointer;
+  display: flex;
+  padding: 20px;
+ 
+}
+.heder input {
+  border-radius: 20px;
+  border: solid gray;
+  height: 40px;
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+.heder img {
+
+  padding: 10px;
+}
+.menu {
+    background-color: white;
+  width: 93%;
+  text-align: center;
+  float: right;
+  margin: auto;
+  
+}
+.menu-items a{
+  cursor: pointer;
+  background-color: gainsboro;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  
+}
+.menu-items a:hover{
+  color: blue;
+}
+.menu-items1 a{
+  font-size: 20px;
+  background-color: black;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 8px;
+  color: azure;
+}
+
+#home{
+    background-color: white;
+    width: 100%;
+    
+    
+}
+
+#logo {
+  background-color: white;
+  position: fixed;
+  cursor: progress;
+  float: left;
+}
+
+.video-item {
+   
+  margin-left: 65px;
+  display: flex;
+  padding: 10px;
+  width: 81%;
+  border-radius: 25px;
+  height: 98%;
+}
+.vid-tgitle {
+    margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  font-weight: bold;
+}
+.vid-tgitle:hover {
+  cursor: pointer;
+  font-weight: bold;
+  color: blue;
+}
+
+.vid-tgitle img {
+  width: 40px;
+  height: 40px;
+}
+.Shortvid {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sort-vid {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 5px;
+  border-radius: 20px;
+}
+h1 {
+  background-color: black;
+  border-radius: 10px;
+  display: inline;
+  color: azure;
+}
+h1:hover {
+  background-color: green;
+  cursor: pointer;
+  display: inline;
+  color: black;
+}
+@media screen and (min-width: 1024px) {
+    .home{
+        background-color:white;
+        color: #fff;
+        position: fixed;
+    }
+}
+ 
