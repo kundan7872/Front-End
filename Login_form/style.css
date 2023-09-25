@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.bgcl {
+  width: 480px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(
+    -50%,
+    -50%
+  ); /* it is used to item positon x.x and y.y form */
+}
+.bgcl .shape {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 50%;
+}
+.shape:first-child {
+  background: linear-gradient(
+    90deg,
+    rgb(202, 74, 113) 0%,
+    rgb(199, 11, 89) 10%,
+    rgb(218, 17, 191) 32%
+  );
+  left: -80px;
+  top: -80px;
+}
+.shape:last-child {
+  background: linear-gradient(
+    90deg,
+    rgb(170, 110, 31) 4%,
+    rgb(221, 37, 61) 15%,
+    rgb(177, 67, 4) 19%
+  );
+  right: -30px;
+  bottom: -80px;
+}
+form {
+  text-align: center;
+  height: 500px;
+  width: 380px;
+  background-color: rgb(255, 255, 255, 0.13);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgb(255, 255, 255, 0.1);
+  padding: 40px 30px;
+}
+
+#name1 {
+  float: left;
+}
+form * {
+  padding: 10px;
+  color: azure;
+  font-weight: bold;
+}
+.soc button {
+  padding: 5px;
+  display: inline;
+  width: 120px;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: transparent;
+  margin: 10px;
+}
+.login:hover {
+  background-color: transparent;
+  color: white;
+}
+.login {
+  border-radius: 20px;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  margin-top: 20px;
+  width: 260px;
+}
+input {
+  color: black;
+}
